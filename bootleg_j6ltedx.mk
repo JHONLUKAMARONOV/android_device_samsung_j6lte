@@ -21,11 +21,11 @@ $(call inherit-product, device/samsung/j6lte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := lineage_j6lte
-PRODUCT_DEVICE := j6lte
+PRODUCT_NAME := bootleg_j6lte
+PRODUCT_DEVICE := j6ltedx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
